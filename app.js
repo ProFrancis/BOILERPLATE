@@ -1,5 +1,5 @@
 import express from 'express'
-import connectDB from './db'; 
+import connectDB from './db.js'; 
 import { ENV } from './config/env.js';
 
 // ROUTES
