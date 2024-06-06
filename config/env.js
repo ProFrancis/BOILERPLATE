@@ -8,5 +8,6 @@ export const ENV = {
   DB_NAME: process.env.DBNAME,
   DB_USER: process.env.USER,
   DB_PASSEWORD: process.env.PASSWORD,
-  DIALECT: process.env.DIALECT
+  DIALECT: process.env.DIALECT,
+  MONGO: process.env.MONGO_URI
 }
